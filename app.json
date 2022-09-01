@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "doctorapi",
+    "slug": "doctorapi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ico.png",
+    "splash": {
+      "image": "./assets/ico1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.harishkp.doctorapi"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
